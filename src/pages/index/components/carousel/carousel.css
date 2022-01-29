@@ -1,0 +1,41 @@
+.banner .carousel-list {
+  width: 600%;
+  overflow: hidden;
+  /* transform: translateX(-16.66%); */
+  transition: transform 0.5s ease 0s;
+}
+.banner .carousel-list li {
+  float: left;
+  width: 16.66%;
+}
+.banner .carousel-list li img {
+  width: 100%;
+  vertical-align: middle;
+}
+.banner .circles-ol {
+  width: 160px;
+  height: 20px;
+  /* background-color: red; */
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -75px;
+  z-index: 999;
+}
+.banner .circles-ol li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(69, 110, 104);
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+}
+.banner .circles-ol li:last-child {
+  margin-right: 0;
+}
+.banner .circles-ol li.current {
+  background-color: #20bd9a;
+  width: 40px;
+}

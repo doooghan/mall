@@ -26,7 +26,7 @@ module.exports = {
     alias: {
       api: resolve('src/api'),
       fonts: resolve('src/assets/fonts'),
-      images: resolve('src/assets/images'),
+      image: resolve('src/assets/image'),
       styles: resolve('src/assets/styles'),
       components: resolve('src/components'),
       pages: resolve('src/pages')

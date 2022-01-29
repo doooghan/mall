@@ -1,0 +1,26 @@
+ <!-- <img src="image/banner1.jpg" alt="" /> -->
+ <ul id="carousel-list" class="carousel-list">
+  <li>
+    <img src="image/banner1.jpg" alt="" />
+  </li>
+  <li>
+    <img src="image/banner2.jpg" alt="" />
+  </li>
+  <li>
+    <img src="image/banner3.jpg" alt="" />
+  </li>
+  <li>
+    <img src="image/banner4.jpg" alt="" />
+  </li>
+  <li>
+    <img src="image/banner5.jpg" alt="" />
+  </li>
+</ul>
+
+<ol class="circles-ol" id="circle-ol">
+  <li data-n="0" class="current"></li>
+  <li data-n="1"></li>
+  <li data-n="2"></li>
+  <li data-n="3"></li>
+  <li data-n="4"></li>
+</ol>
