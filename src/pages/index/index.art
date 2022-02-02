@@ -108,10 +108,10 @@
     </header>
 
     <section class="banner" id="banner">
-      {{include './components/carousel/carousel.art'}}
+      {{include './components/slider/slider.art'}}
 
       <div class="center-wrap">
-        {{include './components/carousel/btn.art'}}
+        {{include './components/slider/btn.art'}}
         <nav class="banner-nav" id="banner-nav-ul">
           <ul>
             <li class="hot" data-t="hot">

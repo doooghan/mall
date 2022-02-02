@@ -11,5 +11,6 @@ import "./js/backtop";
 
 //组件
 import "components/topbar";
-import "./components/carousel";
+// import "./components/carousel";
+import "./components/slider";
 import "./components/jjzyx";

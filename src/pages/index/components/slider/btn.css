@@ -1,0 +1,24 @@
+.banner .center-wrap .leftbtn {
+  position: absolute;
+  width: 28px;
+  height: 44px;
+  top: 50%;
+  margin-top: -14px;
+  left: -38px;
+  background: url(image/icons.png) no-repeat -21px -94px;
+}
+.banner .center-wrap .leftbtn:hover {
+  opacity: 0.6;
+}
+.banner .center-wrap .rightbtn {
+  position: absolute;
+  width: 28px;
+  height: 44px;
+  top: 50%;
+  margin-top: -14px;
+  right: -38px;
+  background: url(image/icons.png) no-repeat -21px -29px;
+}
+.banner .center-wrap .rightbtn:hover {
+  opacity: 0.6;
+}
