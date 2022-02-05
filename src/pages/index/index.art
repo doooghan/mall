@@ -108,7 +108,11 @@
     </header>
 
     <section class="banner" id="banner">
-      {{include './components/slider/slider.art'}}
+      <div id="slider-layout">
+        <% include('../../components/loading/loading.art', { inline:true,
+        text:"^_^ 正在努力为您加载中" }) %>
+        <!-- {{include './components/slider/slider.art'}} -->
+      </div>
 
       <div class="center-wrap">
         {{include './components/slider/btn.art'}}

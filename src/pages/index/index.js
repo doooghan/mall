@@ -14,3 +14,4 @@ import "components/topbar";
 // import "./components/carousel";
 import "./components/slider";
 import "./components/jjzyx";
+import "components/loading"
